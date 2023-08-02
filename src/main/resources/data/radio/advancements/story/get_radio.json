@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "radio:radio_item",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "text": "Long Distance Communication!"
+    },
+    "description": {
+      "text": "Obtain a Radio"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:story/smelt_iron",
+  "criteria": {
+    "diamond_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "radio:radio_item"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "sends_telemetry_event": false
+}
