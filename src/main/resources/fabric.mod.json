@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "id": "radio",
-  "version": "${version}",
+  "version": "1.0",
   "name": "radio",
   "description": "",
-  "authors": [],
+  "authors": ["Noxfy"],
   "contact": {
-    "repo": "https://github.com/nolan/radio"
+    "repo": "https://github.com/Noxfy/RadioMod"
   },
   "license": "MIT",
   "environment": "*",
