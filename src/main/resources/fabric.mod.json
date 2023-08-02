@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "radio",
+  "version": "${version}",
+  "name": "radio",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/nolan/radio"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.noxfy.radio.client.RadioClient"
+    ],
+    "main": [
+      "net.noxfy.radio.Radio"
+    ]
+  },
+  "mixins": [
+    "radio.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
